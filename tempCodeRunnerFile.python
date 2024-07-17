@@ -1,0 +1,17 @@
+# a = 10
+# b = a  # Copy by value
+# b = 20
+# print(id(a))  # Output: 10
+# print(id(b))  # Output: 20
+
+# a = [1, 2, 3]
+# b = a  # Copy by reference
+# b.append(4)
+# print(a)  # Output: [1, 2, 3, 4]
+# print(b)  # Output: [1, 2, 3, 4]
+
+a=[1,2,3,[4,5]]
+b=a.copy()
+b.append(4)
+print(a)
+print(b)
